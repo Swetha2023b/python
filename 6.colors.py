@@ -1,0 +1,7 @@
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+print("All Colors:")
+print(color_list_1)
+print(color_list_2)
+print("\nAll colors not in color list 2:")
+print(color_list_1 - color_list_2)
